@@ -1,0 +1,77 @@
+/*modals*/
+.modal .modal-title, .modal .modal-title small{color:#ffffff;}
+
+/*headings*/
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #333;
+}
+
+/*horizontal lin*/
+hr{
+	margin-top: 40px;
+    margin-bottom: 40px;
+    border: 0;
+    border-top: 1px solid rgba(238, 238, 238, 0.38);
+}
+
+/*navbrand*/
+.navbar-default{
+    border:none;
+    box-shadow: 1px 1px 33px black;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #EEE;
+    background-color:#1a5073;
+}
+.navbar-default .navbar-brand {
+    color: #0F4364;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #0F4364;
+}
+/*panels*/
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel-primary>.panel-heading {
+    color: #ffffff;
+    background-color: #1A5073;
+    border-color: #dddddd;
+}
+
+/*badge*/
+.badge{
+    background-color: #1a5073;
+}
+
+/*backgrounds*/
+.bg-primary {
+    color: #fff;
+    background-color: #1A5073;
+}
+
+/*alerts*/
+.alert-success{
+    border-left: 6px solid;
+}
+
+.alert-danger{
+    border-left: 6px solid;
+}
+
+.btn{
+    border-radius: 0px;
+}
+
+/*inputs */
+.input-lg{
+    border-radius: 0px;
+}

@@ -1,0 +1,11 @@
+.DS_Store
+Thumbs.db
+.log
+.sql
+.sass-cache/
+.codekit-config.json
+vendor
+.idea/
+testing.php
+.vagrant/
+bam.sql

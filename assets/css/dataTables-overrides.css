@@ -1,0 +1,23 @@
+div.table-responsive>div.dataTables_wrapper>div.row:first-child {
+	background-color: #1A5073;
+    padding: 5px 10px;
+    margin: 0;
+    color:#fff;
+}
+
+table.dataTable {
+    margin-top: 0px !important;
+}
+
+.dataTables_wrapper thead{
+	background-color: #2C6E98;
+	colof: #fff;
+	color: white;
+	
+}
+
+div.table-responsive>div.dataTables_wrapper>div.row:last-child {
+   background-color: #1A5073;
+    color: #ffffff;
+    padding: 6px;
+}

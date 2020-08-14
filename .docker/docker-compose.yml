@@ -1,0 +1,30 @@
+version: "3"
+
+networks:
+  bamnetwork:
+    driver: bridge
+
+services:
+  bam-db:
+    container_name: bam-db
+    build: ./db
+    command: --default-authentication-plugin=mysql_native_password
+    ports:
+      - 3306:3306
+    networks:
+      bamnetwork:
+    env_file:
+      - ./development.env
+  bam-www:
+    container_name: bam-www
+    build: ./www
+    ports:
+      - 8080:80
+    volumes:
+      - ../:/var/www/html/
+    networks:
+      bamnetwork:
+    depends_on:
+      - bam-db
+    env_file:
+      - ./development.env

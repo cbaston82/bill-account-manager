@@ -1,0 +1,6 @@
+{
+  "require": {
+    "stripe/stripe-php": "^5.4",
+    "sendgrid/sendgrid": "~5.1"
+  }
+}

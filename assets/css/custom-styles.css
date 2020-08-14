@@ -1,0 +1,199 @@
+/*================================================================
+GLOBAL CLASSES
+================================================================*/
+body{
+	/* padding-top:50px; */
+	padding-bottom:225px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+    /* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+
+html {
+  	position: relative;
+  	min-height: 100%;
+}
+
+/*================================================================
+CUSTOM CLASSES
+================================================================*/
+/*status colors*/
+.c-ontime{
+	color:#29A2CC;
+}
+.c-late{
+	color:#D31E1E;
+}
+
+/*font-colors*/
+.c-white{
+	color:#ffffff;
+}
+
+/*margins*/
+.c-margin-top-30{
+	margin-top:30px;
+}
+.c-margin-top-40{
+	margin-top:40px;
+}
+.c-margin-top-50{
+	margin-top:50px;
+}
+.c-margin-bottom-30{
+	margin-bottom:30px;
+}
+.c-margin-bottom-40{
+	margin-bottom:40px;
+}
+.c-margin-bottom-50{
+	margin-bottom:50px;
+}
+.c-pointer{
+	cursor:pointer;
+}
+
+.c-section-content-1{
+	padding-top:55px;
+	padding-bottom:55px;
+}
+
+/*buttons*/
+.c-btn-1{
+		background-color: rgba(0,0,0,0);
+    	border: 1px solid #fff;
+    	color: #fff;
+	}
+.c-btn-1:hover, .c-btn-1:focus{
+	background-color:#fff;
+}
+
+/*links*/
+.c-link-orange{color:#E15600;}
+.c-link-orange:hover, .c-link-orange:focus{color:#E15600;}
+
+/*================================================================
+DISCLAIMER ALERT
+================================================================*/
+.site-disclaimer {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.navbar-default {
+    margin-bottom: 0px;
+}
+
+/*================================================================
+HERO SECTION
+================================================================*/
+#hero-section{
+	background-color: #1A5073;
+}
+#hero-section .hero-logo-img{
+	 margin: 0 auto 30px;
+}
+#hero-section .hero-welcome {
+	font-size: 20px;
+	color:#ffffff;
+	margin: 0 auto 30px;
+	text-shadow: 0 2px 0 rgba(0,0,0,30.1);
+}
+#hero-section .c-btn-1{
+	margin: 0 auto 30px;
+}
+#hero-section .version{
+	margin-top: 15px;
+	color: #A4BDCE;
+	text-shadow: 0 2px 0 rgba(0,0,0,30.1);
+}
+/************ MERO SECTION MEDIA QUERIES ***************/
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+	/*sidenav*/
+     .hero-logo-img{
+    	height: 150px;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 768px) {
+
+	#hero-section .hero-welcome {
+	    font-size: 27px;
+	}
+    #hero-section .hero-logo-img{
+    	height: 185px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media (min-width: 992px){
+	#hero-section .hero-welcome {
+	    font-size: 30px;
+	}
+}
+/*================================================================
+FEATURES SECTION
+================================================================*/
+#features-section .features-title{
+	margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333;
+}
+#features-section .features-about{
+    color: #777;
+}
+/************ MERO SECTION MEDIA QUERIES ***************/
+@media (min-width: 768px){
+	#features-section .features-title {
+    font-size: 40px;
+	}
+}
+
+
+/*================================================================
+BAM SNIPPETS SECTION
+================================================================*/
+#bam-snippets{background-color:rgba(238, 238, 238, 0.41);}
+		#bam-snippets .bam-snippet-row{
+			padding-top:20px;
+			padding-bottom:20px;
+			margin-bottom: 30px;
+		}
+/*================================================================
+FOOTER SECTION
+================================================================*/
+footer {
+	padding-top:50px;
+	padding-bottom:50px;
+  	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+  	/* Set the fixed height of the footer here */
+  	height: auto;
+  	background-color: #F5F5F5;
+  	color: #777;
+    text-align: center;
+    border-top: 1px solid #e5e5e5;
+}
+.footer .footer-logo-img{height: 60px}
+.footer h4{color:#777;}
+.footer .copy{
+    font-size: 11px;
+    color: #bbb;
+}
+/************ FOOTER SECTION MEDIA QUERIES ***************/
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 768px) {
+	.footer .footer-logo-img{height: 80px}
+	.footer .copy{
+	    font-size: 14px;
+	    color: #bbb;
+	}
+}
