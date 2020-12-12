@@ -1,8 +1,8 @@
 <?php
 
 // localhost
-define('DB_HOST', 'bam-db');
-define('DB_USER', 'root');
+define('DB_HOST', 'localhost');
+define('DB_USER', 'bam_user');
 define('DB_PASS', 'password');
 define('DB_NAME', 'bam');
 
