@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 
 	class DB_object{
@@ -88,14 +88,16 @@
 
 			$clean_properties = array();
 			foreach ($this->properties() as $key => $value) {
-				$clean_properties[$key] = $database->escape_string($value);
+				if($value != '') {
+					$clean_properties[$key] = $database->escape_string($value);
+				}
 			}
 
 			return $clean_properties;
 		}
 
 		/**
-		 * CRUD create or update record. 
+		 * CRUD create or update record.
 		 */
 		public function save(){
 			return isset($this->id) ? $this->update() : $this->create();

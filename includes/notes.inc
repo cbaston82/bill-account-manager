@@ -7,7 +7,8 @@
  ?>
 
 <!-- <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Sriracha" rel="stylesheet"> -->
-<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+<!-- <script src="//cdn.tinymce.com/4/tinymce.min.js"></script> -->
+<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 <h3 class="breakdown-title">You have (<?= count($notes_all) ?>) notes</h3>
 
 <?php if (count($notes_all) < 1): ?>
